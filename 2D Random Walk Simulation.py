@@ -16,5 +16,5 @@ for i in range(0, 100):
         t.seth(0)
     t.fd(10)
 
-print("Turtle coordinates: ", t.pos())
+print("Turtle coordinates: (", int(t.xcor() / 10), ", ", int(t.ycor() / 10), ")")
 print("Turtle distance from origin: ", str(sqrt((t.xcor() ** 2) + (t.ycor() ** 2))))
